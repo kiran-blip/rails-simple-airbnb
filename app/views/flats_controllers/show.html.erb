@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @flats_controller %>
+
+<div>
+  <%= link_to "Edit this flats controller", edit_flats_controller_path(@flats_controller) %> |
+  <%= link_to "Back to flats controllers", flats_controllers_path %>
+
+  <%= button_to "Destroy this flats controller", @flats_controller, method: :delete %>
+</div>

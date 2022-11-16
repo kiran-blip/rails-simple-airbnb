@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Flats controllers</h1>
+
+<div id="flats_controllers">
+  <% @flats_controllers.each do |flats_controller| %>
+    <%= render flats_controller %>
+    <p>
+      <%= link_to "Show this flats controller", flats_controller %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New flats controller", new_flats_controller_path %>
